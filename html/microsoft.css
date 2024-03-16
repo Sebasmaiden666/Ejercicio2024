@@ -1,7 +1,7 @@
  
         body {
             background-image: url();
-            font-family: Arial, Helvetica, sans-serif ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             background-color: #7b6363;
         }
         
@@ -9,24 +9,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 70vh;
-        }
-        .imagen{
-            width: 1180x;
+            height: 75vh;
         }
         .caja-formulario {
             width: 440px;
             height: 350px;
             background-color: #ffffff;
             text-align: left;
-            margin: 5%;
+            margin: 5px;
         }
-            .inicio{
+        .imag{
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+        .inicio{
             font-size: x-large;
-            margin: 5%;
-            }
-            
-            .continuarou{
+            margin: 5%;      
+            padding-top: 1px; 
+        }    
+        .continuarou{
             font-size: medium;
             margin: 5%;
                 
@@ -42,8 +43,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        } 
-       
+        }       
         .caja-correo {
             display: flex;
             justify-content: center;
@@ -54,8 +54,8 @@
             border: none;
             border-bottom: 1px solid rgb(7, 7, 7);
             background-color: transparent;
-            margin: 12px ;
-        } 
+            margin: 15px ;
+        }  
         li{
             list-style: none;
         }
@@ -63,17 +63,18 @@
             text-decoration:none;
         }
         a:hover{
-            text-decoration: underline;
+           text-decoration: underline;
         }  
         .boton{
             background-color: rgba(9, 89, 238, 0.704);
             justify-content: end;
-            height: 50px;
+            height: 40px;
             width: 120px;
             margin-top: 24%;
             position: absolute;
             top: 10%;
             right: 40%;
+            border: none;
         }  
         
         

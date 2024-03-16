@@ -2,7 +2,7 @@
         body {
             background-image: url();
             font-family: Georgia, 'Times New Roman', Times, serif;
-            background-color: #7b6363;
+            background-color: #299a91;
         }
         
         .contenedor-principal {
@@ -10,6 +10,7 @@
             justify-content: center;
             align-items: center;
             height: 75vh;
+            
         }
         .caja-formulario {
             width: 440px;
@@ -17,20 +18,25 @@
             background-color: #ffffff;
             text-align: left;
             margin: 5px;
+            padding-left: 5px;
         }
         .imag{
-            padding-top: 20px;
-            padding-left: 20px;
+            padding-top: 40px;
+            padding-left: 30px;
         }
         .inicio{
-            font-size: x-large;
-            margin: 5%;      
-            padding-top: 1px; 
+            font-size: x-large;   
+            padding-top: 15px; 
+            margin: 1%;
+            height: 30px;
+            padding-left: 25px;
+            
         }    
         .continuarou{
             font-size: medium;
-            margin: 5%;
-                
+            margin: 1%;
+            height: 30px;
+            padding-left: 25px;
             }
         .contenedor-grid {
             display: grid;
@@ -49,21 +55,17 @@
             justify-content: center;
         }
         
-        input { 
-            width: 90%;
-            border: none;
+        .linea input { 
+            width: 80%;
+            border: #7b6363;
             border-bottom: 1px solid rgb(7, 7, 7);
             background-color: transparent;
-            margin: 15px ;
+            margin: 10px ;
+            
         }  
-        li{
-            list-style: none;
-        }
-        a{
-            text-decoration:none;
-        }
+       
         a:hover{
-           text-decoration: underline;
+            text-decoration: underline;
         }  
         .boton{
             background-color: rgba(9, 89, 238, 0.704);
@@ -76,5 +78,9 @@
             right: 40%;
             border: none;
         }  
+        .crear-cuenta{
+            display: flex;
+            justify-content: flex-end;
+        }
         
         
